@@ -3,11 +3,68 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 80%;
+  background-color: rgb(255, 250, 250);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  height: 77vh;
+  padding: 2%;
+  overflow-y: auto;
+}
+
+input[type=text] {
+  width: 15rem;
+  padding: 6px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.completed-btn {
+  background-color: gray;
+}
+
+.todo-list {
+  padding: 1rem;
+}
+
+.task-list {
+  padding: 1%;
+  margin: 0.3rem;
+}
+
+.checkbox {
+  margin-top: 1rem;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: grey;
 }
