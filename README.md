@@ -226,5 +226,8 @@ Below is a step-by-step guide on how to create this app.
     *     }
     ************************************************************************************
 
+    Visit http://localhost:3000 in your browser to see the todo app.
 
+    This simple todo app allows users to add, edit, delete, and mark todos as completed. The data is stored in localStorage, and users can also delete all completed tasks at once. Feel free to customize and style the app according to your preferences before posting it on your blog.
 
+  
